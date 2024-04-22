@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    background-color: black;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+.form{
+    position: relative;
+    display: grid;
+}
+.value{
+   height: 80px;
+   width: 240px;
+   text-align: right;
+   padding: 10px;
+   font-size: 20px;
+   grid-column: span 4;
+}
+.form span{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+}
